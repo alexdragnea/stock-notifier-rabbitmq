@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/StockFetcherServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/TwelveStockClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/errordecoder/FeignErrorDecoder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/twelve/TwelveStockClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/config/StockFetcherServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/Stock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/TwelveResponseBody.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rest/TwelveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/TwelveStockService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/impl/TwelveStockServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
