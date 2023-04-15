@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class TwelveStockServiceImpl implements TwelveStockService {
 
+  @Value("${interval}")
+  private String interval;
+
   @Value("${outputSize}")
   private String outputSize;
 
@@ -23,6 +26,6 @@ public class TwelveStockServiceImpl implements TwelveStockService {
 
   @Override
   public TwelveResponseBody getStockInfo(String symbol) {
-    return twelveStockClient.getStockInfo(symbol, outputSize, apiKey);
+    return twelveStockClient.getStockInfo(symbol, interval, outputSize, apiKey);
   }
 }

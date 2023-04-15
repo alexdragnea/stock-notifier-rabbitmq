@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -28,12 +33,67 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/retryer/CustomRetryer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/twelve/TwelveStockClient.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/config/StockFetcherServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/enums/ApiError.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/enums/ApiErrors.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/enums/TwelveApiError.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/ApiErrorResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/ApiException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/StockNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/TwelveApiException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/TwelveControllerAdvice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/advice/TwelveControllerAdvice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/Meta.java">
           <value>
             <set />
           </value>
@@ -48,12 +108,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/Value.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/ValueData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/Values.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rest/TwelveController.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/StockValidation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/StockValidationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/TwelveStockService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/TwelveValidationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/impl/StockValidationService.java">
           <value>
             <set />
           </value>
