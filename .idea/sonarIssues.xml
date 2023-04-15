@@ -123,6 +123,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/db/StockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/db/UserStockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rest/TwelveController.java">
           <value>
             <set />
@@ -169,6 +179,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/client/stockfetcher/StockFetcherClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/client/stockfetcher/package-info.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/config/TresholdServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/entity/StockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/entity/UserStockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/resources/application.properties">
           <value>
             <set />
           </value>

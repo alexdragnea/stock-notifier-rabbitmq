@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/stock-fetcher-service/pom.xml" />
+        <option value="$PROJECT_DIR$/treshold-service/pom.xml" />
       </list>
     </option>
   </component>
