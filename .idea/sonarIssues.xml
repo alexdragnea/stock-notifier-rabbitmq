@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -39,6 +49,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/twelve/TwelveStockClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/config/RabbitMqConfig.java">
           <value>
             <set />
           </value>
@@ -133,7 +148,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/entity/StockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/model/entity/UserStockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rabbitmq/RabbitMqProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/repository/StockDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/repository/UserStockDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rest/MessageController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/rest/TwelveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/scheduler/StockUpdateScheduler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/service/StockDataConverterService.java">
           <value>
             <set />
           </value>
@@ -183,7 +238,92 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/errordecoder/FeignErrorDecoder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/exceptions/ApiErrorResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/exceptions/StockFetcherApiException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/exceptions/advice/ThresholdControllerAdvice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/fetcher/StockFetcherClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/client/stockfetcher/StockFetcherClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/config/ThresholdServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/entity/TresholdData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/rest/ThresholdController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/service/ThresholdService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/java/net/dg/thresholdservice/service/impl/ThresholdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/threshold-service/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/treshold-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/thresholdservice/config/ThresholdServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/thresholdservice/service/impl/ThresholdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/TresholdServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/client/StockFetcherClient.java">
           <value>
             <set />
           </value>
@@ -198,6 +338,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/config/ThresholdServiceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/config/TresholdServiceConfig.java">
           <value>
             <set />
@@ -208,7 +353,82 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/entity/TresholdData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/entity/UserStockData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/entity/UserStockDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/rabbitmq/RabbitMqConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/repository/StockDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/repository/ThresholdDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/repository/TresholdDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/repository/UserStockDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/rest/MessageController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/rest/ThresholdController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/rest/TresholdController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/rest/UserStockDataController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/service/ThresholdService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/service/TresholdService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/service/impl/ThresholdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/treshold-service/src/main/java/net/dg/tresholdservice/service/impl/TresholdServiceImpl.java">
           <value>
             <set />
           </value>

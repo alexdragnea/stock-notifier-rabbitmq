@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "TwelveStockClient", url = "${twelve.base.url}", decode404 = true)
 public interface TwelveStockClient {
 
-  @GetMapping()
+  @GetMapping
   @Headers("X-RapidAPI-Key: 6fe169f0e2msh8ee3234f44542bbp1cd392jsn55822c38d478")
   TwelveResponseBody getStockInfo(
       @RequestParam("symbol") String symbol,
