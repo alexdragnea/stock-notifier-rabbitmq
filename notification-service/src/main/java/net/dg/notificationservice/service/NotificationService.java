@@ -4,5 +4,5 @@ import net.dg.notificationservice.model.Notification;
 
 public interface NotificationService {
 
-    void sendEmail(Notification notification);
+  void sendEmail(Notification notification);
 }

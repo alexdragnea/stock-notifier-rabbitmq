@@ -17,8 +17,6 @@ P
  stock-fetcher-service/.gitignore,e\6\e652f07be225d37554faca68633661413da37a34
 I
 threshold-service/HELP.md,1\e\1ef9d29d0d4a21dba50c566009da844a01181bf1
-I
-threshold-service/pom.xml,1\f\1f077a83a451232513605810a3cdb233c2a01732
 j
 :notification-service/.mvn/wrapper/maven-wrapper.properties,4\7\47b31efd4868c4a736b387c78e7016ac6e56afd8
 ˆ
@@ -63,8 +61,6 @@ L
 _stock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/ApiErrorResponse.java,7\9\7935fa9c58d69105562327eddc32568110499823
 œ
 lstock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/advice/TwelveControllerAdvice.java,4\0\407fef88ba8d0d211132bcc88c5f45424490ddfd
-“
-cstock-fetcher-service/src/main/java/net/dg/stockfetcherservice/client/twelve/TwelveStockClient.java,2\7\2743a14ff28ec19e1c8f89db04b7fad519120306
 ‘
 astock-fetcher-service/src/main/java/net/dg/stockfetcherservice/exceptions/TwelveApiException.java,4\1\4128d7f9607dc51220217177268c9d60dfe4e753
 ‰

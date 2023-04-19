@@ -14,23 +14,31 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class NotificationServiceImpl implements NotificationService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(NotificationServiceImpl.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(NotificationServiceImpl.class);
 
-    private final JavaMailSender emailSender;
+  private final JavaMailSender emailSender;
 
-    @Override
-    @RabbitListener(queues = {"${rabbitmq.queue.name}"})
-    public void sendEmail(Notification notification) {
+  @Override
+  @RabbitListener(queues = {"${rabbitmq.queue.name}"})
+  public void sendEmail(Notification notification) {
 
-        LOGGER.info("Notification received, notification object: {}", notification);
+    LOGGER.info("Notification received, notification object: {}", notification);
 
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("noreply@alexdragnea.com");
-        message.setTo(notification.getEmail());
-        message.setSubject("Price dropped for stock " + notification.getSymbol());
-        message.setText("Price dropped for stock " + notification.getSymbol() + " and it's lower than threshold set " + notification.getThreshold() + "$" + ", current price " + notification.getPrice() + "$.");
-        emailSender.send(message);
+    SimpleMailMessage message = new SimpleMailMessage();
+    message.setFrom("noreply@alexdragnea.com");
+    message.setTo(notification.getEmail());
+    message.setSubject("Price dropped for stock " + notification.getSymbol());
+    message.setText(
+        "Price dropped for stock "
+            + notification.getSymbol()
+            + " and it's lower than threshold set "
+            + notification.getThreshold()
+            + "$"
+            + ", current price "
+            + notification.getPrice()
+            + "$.");
+    emailSender.send(message);
 
-        LOGGER.info("Message sent to: {}, message: {}", message.getTo(), message.getText());
-    }
+    LOGGER.info("Message sent to: {}, message: {}", message.getTo(), message.getText());
+  }
 }
