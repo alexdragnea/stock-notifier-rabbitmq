@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/config/JavaMailSenderConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/model/Notification.java">
           <value>
             <set />
@@ -43,7 +48,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/service/NotificationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/service/RabbitMqConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/service/impl/NotificationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/notification-service/src/main/java/net/dg/notificationservice/service/rabbitmq/NotificationConsumer.java">
           <value>
             <set />
           </value>

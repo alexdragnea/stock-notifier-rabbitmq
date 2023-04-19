@@ -50,7 +50,7 @@ public class ThresholdServiceImpl implements ThresholdService {
   }
 
   @Override
-  @Scheduled(fixedRate = 15000) // 15 seconds
+  @Scheduled(fixedRate = 300000) // 5 minutes
   public void sendNotification() {
 
     List<ThresholdData> thresholdDataList = thresholdDataRepository.findAll();
