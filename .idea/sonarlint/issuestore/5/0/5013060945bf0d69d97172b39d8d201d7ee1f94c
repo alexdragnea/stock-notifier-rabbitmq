@@ -1,0 +1,12 @@
+
+~
+java:S2629*"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¢ÞÌÐüÿÿÿÿ8ó„êšù0
+y
+java:S2142&"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
+C	java:S108&")Either remove or fill this block of code.(è®ã¶øÿÿÿÿ
+c
+java:S3457*"AFormat specifiers should be used instead of string concatenation.(¢ÞÌÐüÿÿÿÿ8’…êšù0
+n
+java:S2975."SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¦‘çáüÿÿÿÿ
+c
+java:S1182."HUse super.clone() to create and seed the cloned instance to be returned.(¦‘çáüÿÿÿÿ

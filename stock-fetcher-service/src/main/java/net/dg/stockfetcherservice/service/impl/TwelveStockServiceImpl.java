@@ -1,12 +1,11 @@
 package net.dg.stockfetcherservice.service.impl;
 
-import java.util.Optional;
 import net.dg.stockfetcherservice.client.twelve.TwelveStockClient;
 import net.dg.stockfetcherservice.model.TwelveResponseBody;
 import net.dg.stockfetcherservice.model.entity.StockData;
 import net.dg.stockfetcherservice.repository.StockDataRepository;
-import net.dg.stockfetcherservice.service.StockDataConverterService;
 import net.dg.stockfetcherservice.service.TwelveStockService;
+import net.dg.stockfetcherservice.service.converter.StockDataConverterService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -45,11 +44,6 @@ public class TwelveStockServiceImpl implements TwelveStockService {
   }
 
   @Override
-  public void saveStock(StockData stockData) {
-    Optional<StockData> existingStockData = stockDataRepository.findBySymbol(stockData.getSymbol());
-    existingStockData.ifPresent(stockDataRepository::save);
-  }
-
   public void fetchAndUpdateStockData(StockData stockData) {
     TwelveResponseBody responseBody =
         twelveStockClient.getStockInfo(stockData.getSymbol(), interval, outputSize, apiKey);

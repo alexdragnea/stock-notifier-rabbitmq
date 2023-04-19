@@ -7,7 +7,5 @@ public interface TwelveStockService {
 
   TwelveResponseBody getStockInfo(String symbol);
 
-  void saveStock(StockData stockData);
-
   void fetchAndUpdateStockData(StockData stockData);
 }

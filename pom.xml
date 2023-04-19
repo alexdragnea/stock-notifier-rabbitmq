@@ -45,5 +45,6 @@
     <modules>
         <module>stock-fetcher-service</module>
         <module>threshold-service</module>
+        <module>notification-service</module>
     </modules>
 </project>

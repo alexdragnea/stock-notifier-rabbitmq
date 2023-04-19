@@ -1,10 +1,11 @@
 package net.dg.thresholdservice.service;
 
-import net.dg.thresholdservice.entity.TresholdData;
-
 import java.math.BigDecimal;
+import net.dg.thresholdservice.entity.ThresholdData;
 
 public interface ThresholdService {
 
-  TresholdData setThreshold(String email, String stockSymbol, BigDecimal threshold);
+  ThresholdData setThreshold(String email, String stockSymbol, BigDecimal threshold);
+
+  void sendNotification();
 }
